@@ -1,0 +1,19 @@
+[project]
+name = "house-prices-competition-kaggle"
+version = "1.0.0"
+description = "House Prices - Advanced Regression Techniques"
+readme = "README.md"
+requires-python = "==3.13.*"
+dependencies = [
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "seaborn",
+    "xgboost",
+    "matplotlib",
+    "scikit-learn",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
